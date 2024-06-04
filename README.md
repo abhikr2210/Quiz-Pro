@@ -1,6 +1,6 @@
-# QuizApp
+# Quiz Pro
 
-QuizApp is an Android application that allows users to test their knowledge across various subjects. The app offers quizzes in 5 different subjects, providing a fun and interactive way to learn and practice.
+Quiz Pro is an Android application that allows users to test their knowledge across various subjects. The app offers quizzes in 5 different subjects, providing a fun and interactive way to learn and practice.
 
 ## Features
 
@@ -24,4 +24,4 @@ QuizApp is an Android application that allows users to test their knowledge acro
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/QuizApp.git
+   git clone https://github.com/abhikr2210/Quiz-Pro.git
