@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    tools:context=".MathsQuizActivity">
+
+    <TextView
+        android:id="@+id/totalQuestionTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Total Question: "
+        android:textSize="25sp"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="@color/black"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/choices_layout"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/questionTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="150dp"
+            android:text="This will be our question"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginBottom="20dp"/>
+        <Button
+            android:id="@+id/ans_a"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/gray"
+            android:text="Ans A"
+            android:textColor="@color/black"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginVertical="10dp"
+            android:textSize="18sp"
+            android:textAllCaps="false"/>
+        <Button
+            android:id="@+id/ans_b"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/gray"
+            android:text="Ans B"
+            android:textColor="@color/black"
+            android:layout_marginHorizontal="20dp"
+            android:textSize="18sp"
+            android:textAllCaps="false"
+            android:layout_marginVertical="10dp"/>
+        <Button
+            android:id="@+id/ans_c"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/gray"
+            android:text="Ans C"
+            android:textColor="@color/black"
+            android:layout_marginHorizontal="20dp"
+            android:textSize="18sp"
+            android:textAllCaps="false"
+            android:layout_marginVertical="10dp"/>
+        <Button
+            android:id="@+id/ans_d"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/gray"
+            android:text="Ans D"
+            android:textColor="@color/black"
+            android:layout_marginHorizontal="20dp"
+            android:textSize="18sp"
+            android:textAllCaps="false"
+            android:layout_marginVertical="10dp"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@color/blue"
+        android:text="Submit"
+        android:textColor="@color/black"
+        android:layout_marginHorizontal="20dp"
+        android:textSize="25sp"
+        android:textAllCaps="false"/>
+
+    <TextView
+        android:id="@+id/quitTextView"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Quit Now"
+        android:textColor="@color/red"
+        android:textSize="30sp"
+        android:textStyle="bold|italic"
+        android:layout_marginTop="40dp"/>
+
+</LinearLayout>
