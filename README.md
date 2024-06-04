@@ -10,7 +10,7 @@ Quiz Pro is an Android application that allows users to test their knowledge acr
 
 ## Screenshots
 
-*Include screenshots of the app here*
+![My Photo](https://github.com/abhikr2210/Quiz-Pro/assets/102261519/a3c2d30c-abc3-422b-a802-1fe2408bbb39)
 
 ## Getting Started
 
